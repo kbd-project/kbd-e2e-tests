@@ -1,0 +1,11 @@
+TODO:
+    setfont         Load font "default[.gz]"
+    setfont -<N>    Load font "default8x<N>[.gz]"
+    setfont -{8|14|16} codepage.cp[.gz]   Load 8x<N> font from codepage.cp
+    -h<N>      (no space) Override font height.
+    -u <fn>    Load font unicode map.
+    -m none    Suppress loading and activation of a screen map.
+    -u none    Suppress loading of a unicode map.
+    -v         Be verbose.
+    -C <cons>  Indicate console device to be used.
+    -V         Print version and exit.
