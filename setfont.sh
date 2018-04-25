@@ -1,11 +1,13 @@
-#!/bin/sh -eu
+#!/bin/sh
+set -eu
 . "$(dirname "$0")/lib/init.sh"
+. "$(dirname "$0")/lib/setfont.sh"
 
 test_setfont() {
     run "
         set -e; export LANG=C
         clear >/dev/tty0
-        setfont -16 -m ./data/trivial.trans -u ./data/def.uni ./data/default8x16.psfu >/dev/tty0
+        setfont -16 -m ./data/setfont/trivial.trans -u ./data/setfont/def.uni ./data/setfont/default8x16.psfu >/dev/tty0
         printf '\033[?25l' >/dev/tty0  # hide cursor
     "
 
@@ -63,7 +65,7 @@ test_setfont_trans() {
     run "
         set -e; export LANG=C
         clear >/dev/tty0
-        setfont -16 -m ./data/trivial.trans -u ./data/def.uni ./data/default8x16.psfu >/dev/tty0
+        setfont -16 -m ./data/setfont/trivial.trans -u ./data/setfont/def.uni ./data/setfont/default8x16.psfu >/dev/tty0
         printf '\033[?25l' >/dev/tty0  # hide cursor
         printf '\033%%@' >/dev/tty0  # return to ISO/IEC 2022
     "

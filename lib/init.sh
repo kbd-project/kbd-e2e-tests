@@ -10,7 +10,6 @@
 #     KBD_RECORD        Update the reference results.
 #     KBD_RANDOMIZE     Run tests in random order.
 
-KBD_SETFONT=${KBD_SETFONT:-$(which setfont)}
 KBD_DATA=./data
 KBD_TESTS=./tests
 
@@ -43,14 +42,6 @@ run() {
 
 upload() {
     livm scpto "$KBD_VM_DIR" -q "$@"
-}
-
-upload_setfont() {
-    upload "$KBD_SETFONT" /usr/bin/setfont
-}
-
-upload_data() {
-    upload -r "$KBD_DATA" data
 }
 
 # status {OK,FAIL,REC} {message}
@@ -117,5 +108,3 @@ screenshot() {
 }
 
 init
-upload_setfont
-upload_data
