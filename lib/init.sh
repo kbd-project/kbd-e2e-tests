@@ -10,8 +10,8 @@
 #     KBD_RECORD        Update the reference results.
 #     KBD_RANDOMIZE     Run tests in random order.
 
-KBD_DATA=./data
-KBD_TESTS=./tests
+KBD_DATA="$(dirname "$0")/data"
+KBD_TESTS="$(dirname "$0")/tests"
 
 KBD_TMP_DIR=
 
@@ -81,7 +81,7 @@ file() {
     else
         cmp "$KBD_TMP_DIR/file" "$target" || {
             status FAIL "$name"
-            sleep 2
+            # TODO(dmage): give access to the file
             false
         }
         status OK "$name"

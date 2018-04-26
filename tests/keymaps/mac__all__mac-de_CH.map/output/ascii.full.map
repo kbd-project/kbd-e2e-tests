@@ -1,0 +1,350 @@
+keymaps 0-5,8-9,12
+keycode   1 = +s               +S               +s               +S               Control_s        Control_s        Meta_s           Meta_S           Meta_Control_s  
+keycode   2 = +d               +D               +d               +D               Control_d        Control_d        Meta_d           Meta_D           Meta_Control_d  
+keycode   3 = +f               +F               +f               +F               Control_f        Control_f        Meta_f           Meta_F           Meta_Control_f  
+keycode   4 = +h               +H               +h               +H               BackSpace        BackSpace        Meta_h           Meta_H           Meta_BackSpace  
+keycode   5 = +g               +G               +g               +G               Control_g        Control_g        Meta_g           Meta_G           Meta_Control_g  
+keycode   6 = +y               +Y               +y               +Y               Control_y        Control_y        Meta_y           Meta_Y           Meta_Control_y  
+keycode   7 = +x               +X               +x               +X               Control_x        Control_x        Meta_x           Meta_X           Meta_Control_x  
+keycode   8 = +c               +C               +c               +C               Control_c        Control_c        cent             Meta_C           Meta_Control_c  
+keycode   9 = +v               +V               +v               +V               Control_v        Control_v        Meta_v           Meta_V           Meta_Control_v  
+keycode  10 = less             greater          VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_less        Meta_greater     VoidSymbol      
+keycode  11 = +b               +B               +b               +B               Control_b        Control_b        Meta_b           Meta_B           Meta_Control_b  
+keycode  12 = +q               +Q               +q               +Q               Control_q        Control_q        Meta_q           Meta_Q           Meta_Control_q  
+keycode  13 = +w               +W               +w               +W               Control_w        Control_w        Meta_w           Meta_W           Meta_Control_w  
+keycode  14 = +e               +E               +e               +E               Control_e        Control_e        currency         Meta_E           Meta_Control_e  
+keycode  15 = +r               +R               +r               +R               Control_r        Control_r        Meta_r           Meta_R           Meta_Control_r  
+keycode  16 = +z               +Z               +z               +Z               Control_z        Control_z        Meta_z           Meta_Z           Meta_Control_z  
+keycode  17 = +t               +T               +t               +T               Control_t        Control_t        Meta_t           Meta_T           Meta_Control_t  
+keycode  18 = one              plus             VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_one         Meta_plus        VoidSymbol      
+keycode  19 = two              quotedbl         at               VoidSymbol       VoidSymbol       VoidSymbol       Meta_two         Meta_quotedbl    VoidSymbol      
+keycode  20 = three            asterisk         numbersign       VoidSymbol       VoidSymbol       VoidSymbol       Meta_three       Meta_asterisk    VoidSymbol      
+keycode  21 = four             ccedilla         backslash        Control_backslash Meta_backslash   Meta_Control_backslash Meta_four        VoidSymbol       VoidSymbol      
+keycode  22 = six              ampersand        bracketright     Control_bracketright Meta_bracketright Meta_Control_bracketright Meta_six         Meta_ampersand   VoidSymbol      
+keycode  23 = five             percent          bracketleft      Escape           bracketleft      Meta_Escape      Meta_five        Meta_percent     Meta_bracketleft
+keycode  24 = asciicircum      grave            Control_asciicircum Meta_asciicircum Meta_Control_asciicircum VoidSymbol       Meta_asciicircum Meta_grave       VoidSymbol      
+keycode  25 = nine             parenright       braceright       Control_bracketright Meta_braceright  Meta_Control_bracketright Meta_nine        Meta_parenright  VoidSymbol      
+keycode  26 = seven            slash            bar              Control_backslash Meta_bar         Meta_Control_backslash Meta_seven       Meta_slash       VoidSymbol      
+keycode  27 = apostrophe       question         VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_apostrophe  Meta_question    VoidSymbol      
+keycode  28 = eight            parenleft        braceleft        Escape           Meta_braceleft   Meta_Escape      Meta_eight       Meta_parenleft   VoidSymbol      
+keycode  29 = zero             equal            nul              nul              Meta_equal       Meta_nul         Meta_zero        Meta_equal       VoidSymbol      
+keycode  30 = dead_diaeresis   exclam           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_exclam      VoidSymbol      
+keycode  31 = +o               +O               +o               +O               Control_o        Control_o        Meta_o           Meta_O           Meta_Control_o  
+keycode  32 = +u               +U               +u               +U               Control_u        Control_u        Meta_u           Meta_U           Meta_Control_u  
+keycode  33 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  34 = +i               +I               +i               +I               Tab              Tab              Meta_i           Meta_I           Meta_Tab        
+keycode  35 = +p               +P               +p               +P               Control_p        Control_p        Meta_p           Meta_P           Meta_Control_p  
+keycode  36 = Return           Return           Return           Return           Return           Return           Meta_Control_m   Return           Return          
+keycode  37 = +l               +L               +l               +L               Control_l        Control_l        Meta_l           Meta_L           Meta_Control_l  
+keycode  38 = +j               +J               +j               +J               Linefeed         Linefeed         Meta_j           Meta_J           Meta_Linefeed   
+keycode  39 = adiaeresis       agrave           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  40 = +k               +K               +k               +K               Control_k        Control_k        Meta_k           Meta_K           Meta_Control_k  
+keycode  41 = odiaeresis       eacute           VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  42 = dollar           sterling         VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_dollar      VoidSymbol       VoidSymbol      
+keycode  43 = comma            semicolon        VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_comma       Meta_semicolon   VoidSymbol      
+keycode  44 = minus            underscore       backslash        Control_underscore Meta_minus       Meta_Control_underscore Meta_minus       Meta_underscore  VoidSymbol      
+keycode  45 = +n               +N               +n               +N               Control_n        Control_n        Meta_n           Meta_N           Meta_Control_n  
+keycode  46 = +m               +M               +m               +M               Control_m        Control_m        Meta_m           Meta_M           Meta_Control_m  
+keycode  47 = period           colon            VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       Meta_period      Meta_colon       VoidSymbol      
+keycode  48 = Tab              Meta_Tab         Tab              Tab              Tab              Tab              Meta_Tab         Tab              Meta_Tab        
+keycode  49 = space            space            space            nul              VoidSymbol       VoidSymbol       Meta_space       VoidSymbol       VoidSymbol      
+keycode  50 = section          degree           asciitilde       nul              Meta_asciitilde  VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  51 = Delete           Remove           VoidSymbol       VoidSymbol       Remove           VoidSymbol       Meta_Delete      Meta_Delete      VoidSymbol      
+keycode  52 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  53 = Escape           Escape           Escape           Escape           Escape           Escape           Meta_Escape      Meta_Escape      Meta_Escape     
+keycode  54 = Control          Control          Control          Control          Control          Control          Control          Control          Control         
+keycode  55 = Alt              Alt              Alt              Alt              Alt              Alt              Alt              Alt              Alt             
+keycode  56 = Shift            Shift            Shift            Shift            Shift            Shift            Shift            Shift            Shift           
+keycode  57 = Caps_Lock        Caps_Lock        Caps_Lock        Caps_Lock        Caps_Lock        Caps_Lock        Caps_Lock        Caps_Lock        Caps_Lock       
+keycode  58 = AltGr            AltGr            AltGr            AltGr            AltGr            AltGr            AltGr            AltGr            AltGr           
+keycode  59 = Left             Left             Left             Left             Left             Left             Decr_Console     Left             Left            
+keycode  60 = Right            Right            Right            Right            Right            Right            Incr_Console     Right            Right           
+keycode  61 = Down             Down             Down             Down             Down             Down             Down             Down             Down            
+keycode  62 = Up               Up               Up               Up               Up               Up               KeyboardSignal   Up               Up              
+keycode  63 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  64 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  65 = KP_Period        KP_Period        KP_Period        KP_Period        KP_Period        KP_Period        KP_Period        KP_Period        Boot            
+keycode  66 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  67 = KP_Multiply      KP_Multiply      KP_Multiply      KP_Multiply      KP_Multiply      KP_Multiply      KP_Multiply      KP_Multiply      KP_Multiply     
+keycode  68 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  69 = KP_Add           KP_Add           KP_Add           KP_Add           KP_Add           KP_Add           KP_Add           KP_Add           KP_Add          
+keycode  70 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  71 = Num_Lock         Num_Lock         Num_Lock         Num_Lock         Num_Lock         Num_Lock         Num_Lock         Num_Lock         Num_Lock        
+keycode  72 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  73 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  74 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  75 = KP_Divide        KP_Divide        KP_Divide        KP_Divide        KP_Divide        KP_Divide        KP_Divide        KP_Divide        KP_Divide       
+keycode  76 = KP_Enter         KP_Enter         KP_Enter         KP_Enter         KP_Enter         KP_Enter         KP_Enter         KP_Enter         KP_Enter        
+keycode  77 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  78 = KP_Subtract      KP_Subtract      KP_Subtract      KP_Subtract      KP_Subtract      KP_Subtract      KP_Subtract      KP_Subtract      KP_Subtract     
+keycode  79 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  80 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  81 = equal            equal            equal            equal            equal            equal            Meta_equal       Meta_equal       Meta_equal      
+keycode  82 = KP_0             KP_0             KP_0             KP_0             KP_0             KP_0             Ascii_0          KP_0             KP_0            
+keycode  83 = KP_1             KP_1             KP_1             KP_1             KP_1             KP_1             Ascii_1          KP_1             KP_1            
+keycode  84 = KP_2             KP_2             KP_2             KP_2             KP_2             KP_2             Ascii_2          KP_2             KP_2            
+keycode  85 = KP_3             KP_3             KP_3             KP_3             KP_3             KP_3             Ascii_3          KP_3             KP_3            
+keycode  86 = KP_4             KP_4             KP_4             KP_4             KP_4             KP_4             Ascii_4          KP_4             KP_4            
+keycode  87 = KP_5             KP_5             KP_5             KP_5             KP_5             KP_5             Ascii_5          KP_5             KP_5            
+keycode  88 = KP_6             KP_6             KP_6             KP_6             KP_6             KP_6             Ascii_6          KP_6             KP_6            
+keycode  89 = KP_7             KP_7             KP_7             KP_7             KP_7             KP_7             Ascii_7          KP_7             KP_7            
+keycode  90 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  91 = KP_8             KP_8             KP_8             KP_8             KP_8             KP_8             Ascii_8          KP_8             KP_8            
+keycode  92 = KP_9             KP_9             KP_9             KP_9             KP_9             KP_9             Ascii_9          KP_9             KP_9            
+keycode  93 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  94 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  95 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode  96 = F5               F17              VoidSymbol       VoidSymbol       F29              VoidSymbol       Console_5        VoidSymbol       Console_5       
+keycode  97 = F6               F18              VoidSymbol       VoidSymbol       F30              VoidSymbol       Console_6        VoidSymbol       Console_6       
+keycode  98 = F7               F19              VoidSymbol       VoidSymbol       F31              VoidSymbol       Console_7        VoidSymbol       Console_7       
+keycode  99 = F3               F15              VoidSymbol       VoidSymbol       F27              VoidSymbol       Console_3        VoidSymbol       Console_3       
+keycode 100 = F8               F20              VoidSymbol       VoidSymbol       F32              VoidSymbol       Console_8        VoidSymbol       Console_8       
+keycode 101 = F9               F21              VoidSymbol       VoidSymbol       F33              VoidSymbol       Console_9        VoidSymbol       Console_9       
+keycode 102 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 103 = F11              F23              VoidSymbol       VoidSymbol       F35              VoidSymbol       Console_11       VoidSymbol       Console_11      
+keycode 104 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 105 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 106 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 107 = Scroll_Lock      Show_Memory      VoidSymbol       VoidSymbol       Show_State       VoidSymbol       Show_Registers   VoidSymbol       VoidSymbol      
+keycode 108 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 109 = F10              F22              VoidSymbol       VoidSymbol       F34              VoidSymbol       Console_10       VoidSymbol       Console_10      
+keycode 110 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 111 = F12              F24              VoidSymbol       VoidSymbol       F36              VoidSymbol       Console_12       VoidSymbol       Console_12      
+keycode 112 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 113 = Pause            Pause            Pause            Pause            Pause            Pause            Pause            Pause            Pause           
+keycode 114 = Insert           Insert           Insert           Insert           Insert           Insert           Insert           Insert           Insert          
+keycode 115 = Find             Find             Find             Find             Find             Find             Find             Find             Find            
+keycode 116 = Prior            Scroll_Backward  Prior            Prior            Prior            Prior            Prior            Prior            Prior           
+keycode 117 = Remove           Remove           Remove           Remove           Remove           Remove           Remove           Remove           Boot            
+keycode 118 = F4               F16              VoidSymbol       VoidSymbol       F28              VoidSymbol       Console_4        VoidSymbol       Console_4       
+keycode 119 = Select           Select           Select           Select           Select           Select           Select           Select           Select          
+keycode 120 = F2               F14              VoidSymbol       VoidSymbol       F26              VoidSymbol       Console_2        VoidSymbol       Console_2       
+keycode 121 = Next             Scroll_Forward   Next             Next             Next             Next             Next             Next             Next            
+keycode 122 = F1               F13              VoidSymbol       VoidSymbol       F25              VoidSymbol       Console_1        VoidSymbol       Console_1       
+keycode 123 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 124 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 125 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 126 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 127 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 128 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 129 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 130 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 131 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 132 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 133 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 134 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 135 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 136 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 137 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 138 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 139 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 140 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 141 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 142 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 143 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 144 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 145 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 146 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 147 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 148 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 149 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 150 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 151 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 152 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 153 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 154 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 155 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 156 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 157 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 158 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 159 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 160 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 161 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 162 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 163 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 164 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 165 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 166 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 167 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 168 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 169 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 170 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 171 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 172 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 173 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 174 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 175 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 176 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 177 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 178 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 179 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 180 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 181 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 182 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 183 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 184 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 185 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 186 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 187 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 188 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 189 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 190 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 191 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 192 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 193 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 194 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 195 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 196 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 197 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 198 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 199 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 200 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 201 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 202 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 203 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 204 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 205 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 206 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 207 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 208 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 209 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 210 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 211 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 212 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 213 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 214 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 215 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 216 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 217 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 218 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 219 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 220 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 221 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 222 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 223 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 224 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 225 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 226 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 227 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 228 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 229 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 230 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 231 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 232 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 233 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 234 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 235 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 236 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 237 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 238 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 239 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 240 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 241 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 242 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 243 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 244 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 245 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 246 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 247 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 248 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 249 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 250 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 251 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 252 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 253 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 254 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+keycode 255 = VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol       VoidSymbol      
+string F1 = "\033[[A"
+string F2 = "\033[[B"
+string F3 = "\033[[C"
+string F4 = "\033[[D"
+string F5 = "\033[[E"
+string F6 = "\033[17~"
+string F7 = "\033[18~"
+string F8 = "\033[19~"
+string F9 = "\033[20~"
+string F10 = "\033[21~"
+string F11 = "\033[23~"
+string F12 = "\033[24~"
+string F13 = "\033[25~"
+string F14 = "\033[26~"
+string F15 = "\033[28~"
+string F16 = "\033[29~"
+string F17 = "\033[31~"
+string F18 = "\033[32~"
+string F19 = "\033[33~"
+string F20 = "\033[34~"
+string Find = "\033[1~"
+string Insert = "\033[2~"
+string Remove = "\033[3~"
+string Select = "\033[4~"
+string Prior = "\033[5~"
+string Next = "\033[6~"
+compose '`' 'A' to Agrave
+compose '`' 'a' to agrave
+compose '\'' 'A' to Aacute
+compose '\'' 'a' to aacute
+compose '^' 'A' to Acircumflex
+compose '^' 'a' to acircumflex
+compose '~' 'A' to Atilde
+compose '~' 'a' to atilde
+compose '"' 'A' to Adiaeresis
+compose '"' 'a' to adiaeresis
+compose 'O' 'A' to Aring
+compose 'o' 'a' to aring
+compose '0' 'A' to Aring
+compose '0' 'a' to aring
+compose 'A' 'A' to Aring
+compose 'a' 'a' to aring
+compose 'A' 'E' to AE
+compose 'a' 'e' to ae
+compose ',' 'C' to Ccedilla
+compose ',' 'c' to ccedilla
+compose '`' 'E' to Egrave
+compose '`' 'e' to egrave
+compose '\'' 'E' to Eacute
+compose '\'' 'e' to eacute
+compose '^' 'E' to Ecircumflex
+compose '^' 'e' to ecircumflex
+compose '"' 'E' to Ediaeresis
+compose '"' 'e' to ediaeresis
+compose '`' 'I' to Igrave
+compose '`' 'i' to igrave
+compose '\'' 'I' to Iacute
+compose '\'' 'i' to iacute
+compose '^' 'I' to Icircumflex
+compose '^' 'i' to icircumflex
+compose '"' 'I' to Idiaeresis
+compose '"' 'i' to idiaeresis
+compose '-' 'D' to ETH
+compose '-' 'd' to eth
+compose '~' 'N' to Ntilde
+compose '~' 'n' to ntilde
+compose '`' 'O' to Ograve
+compose '`' 'o' to ograve
+compose '\'' 'O' to Oacute
+compose '\'' 'o' to oacute
+compose '^' 'O' to Ocircumflex
+compose '^' 'o' to ocircumflex
+compose '~' 'O' to Otilde
+compose '~' 'o' to otilde
+compose '"' 'O' to Odiaeresis
+compose '"' 'o' to odiaeresis
+compose '/' 'O' to Ooblique
+compose '/' 'o' to oslash
+compose '`' 'U' to Ugrave
+compose '`' 'u' to ugrave
+compose '\'' 'U' to Uacute
+compose '\'' 'u' to uacute
+compose '^' 'U' to Ucircumflex
+compose '^' 'u' to ucircumflex
+compose '"' 'U' to Udiaeresis
+compose '"' 'u' to udiaeresis
+compose '\'' 'Y' to Yacute
+compose '\'' 'y' to yacute
+compose 'T' 'H' to THORN
+compose 't' 'h' to thorn
+compose 's' 's' to ssharp
+compose '"' 'y' to ydiaeresis
+compose 's' 'z' to ssharp
+compose 'i' 'j' to ydiaeresis
